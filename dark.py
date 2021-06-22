@@ -32,6 +32,7 @@ print ('\033[96m [✓] Downloading Ngrok File.......')
 time.sleep (2)
 print ''
 os.system ('unzip Dark-Ngrok.zip')
+os.system ('chmod 777 ngrok')
 os.system ('cp ngrok $PREFIX/bin/')
 print '\033[92m [✓] Ngrok Setup Done '
 print ''
