@@ -34,6 +34,7 @@ print ''
 os.system ('unzip Dark-Ngrok.zip')
 os.system ('chmod 777 ngrok')
 os.system ('cp ngrok $PREFIX/bin/')
+os.system ('chmod +x $PREFIX/bin/ngrok')
 print '\033[92m [✓] Ngrok Setup Done '
 print ''
 print ('\033[93m [$] Restart your termux and type [\033[91mEX : ngrok http 8080\033[93m]: ngrok ......')
