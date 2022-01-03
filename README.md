@@ -1,10 +1,10 @@
-# Rub Ngrok without hostpot
+# Rub Ngrok without hotspot
  ```
- pip install pyfiglet
  apt install python
- gitclone https://github.com/darkhunter141/CC-Generator
- cd CC-Generator
- python main.py
+ apt install git 
+ git clone https://github.com/darkhunter141/Dark-Ngrok
+ cd Dark-Ngrok
+ python2 dark.py
  
  ```
  
