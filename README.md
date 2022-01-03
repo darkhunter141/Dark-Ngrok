@@ -1,4 +1,4 @@
-# Rub Ngrok without hotspot
+# Run Ngrok without hotspot
  ```
  apt install python
  apt install git 
